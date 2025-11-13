@@ -12,11 +12,13 @@ body {
   overflow-x: hidden;
 }
 
-/* 🏫 Hero Section (Animated Gradient) */
+/* 🏫 Hero Section (Animated Gradient + Background Image) */
 .hero {
-  background: linear-gradient(-45deg, #ff8a65, #ff7043, #e64a19, #ff5722);
-  background-size: 400% 400%;
-  animation: gradientMove 10s ease infinite;
+  background: 
+    linear-gradient(-45deg, rgba(255, 138, 101, 0.6), rgba(255, 112, 67, 0.6), rgba(255, 82, 82, 0.6), rgba(230, 74, 25, 0.6)),
+    url('https://www.modyuniversity.ac.in/wp-content/uploads/2023/03/campus-view.jpg') center/cover no-repeat;
+  background-size: 400% 400%, cover;
+  animation: gradientMove 12s ease infinite;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -26,18 +28,19 @@ body {
   position: relative;
 }
 
+/* ✨ Animated Gradient Keyframes */
 @keyframes gradientMove {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+  0% { background-position: 0% 50%, center; }
+  50% { background-position: 100% 50%, center; }
+  100% { background-position: 0% 50%, center; }
 }
 
 /* 🧱 Overlay Box */
 .overlay {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.55);
   padding: 50px 40px;
   border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
   width: 85%;
   max-width: 700px;
 }
@@ -61,7 +64,7 @@ body {
 }
 
 button {
-  background: #ff5722;
+  background: #ff7043;
   border: none;
   color: white;
   padding: 12px 25px;
