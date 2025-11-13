@@ -1,0 +1,9 @@
+{
+  "fees": [
+    { "course": "B.Tech CSE", "amount": 150000 },
+    { "course": "MBA", "amount": 200000 },
+    { "course": "BA Design", "amount": 120000 },
+    { "course": "BBA", "amount": 130000 },
+    { "course": "BCA", "amount": 110000 }
+  ]
+}

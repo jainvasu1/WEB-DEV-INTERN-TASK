@@ -1,0 +1,6 @@
+{
+  "name": "XYZ International University",
+  "location": "Bangalore, Karnataka",
+  "courses": ["BBA", "BCA", "M.Tech"],
+  "facilities": ["Hostel", "Sports Complex", "Wi-Fi"]
+}

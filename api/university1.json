@@ -1,0 +1,6 @@
+{
+  "name": "ABC University",
+  "location": "Pune, Maharashtra",
+  "courses": ["B.Tech CSE", "MBA", "BA Design"],
+  "facilities": ["Library", "Hostel", "Wi-Fi", "Labs"]
+}
